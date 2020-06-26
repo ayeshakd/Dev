@@ -1,0 +1,84 @@
+{%extends "cdaInterview/base.html" %}
+{%block content%}
+<div class="root">
+   
+    <div class="forms">
+        This is contact page
+    </div>
+
+    <img class="logo"
+    src="../../static/cdaInterview/logo.png">
+
+    <div>
+        <img class="imagec"
+          src="../../static/cdaInterview/contact.png">
+
+        </div>
+
+        <div class = "headingc">
+            
+            <p class="btextc"> 
+            BeMo Academic Consulting Inc.
+        </p> 
+        <p class="btextc2"> 
+            <u><b>Toll Free:</b></u> 1-855-900-BeMo (2366)
+        </p> 
+        <p class="btextc3"> 
+            <u><b>Email:</b></u> info@bemoacademicconsulting.com
+        </p> 
+        </div>
+
+    <!-- <form action="/action_page.php">
+        <label for="fname">NAME: *</label><br>
+        <input type="text"><br>
+        <label for="lname">EMAIL ADDRESS: *</label><br>
+        <input type="text" ><br><br>
+        <label for="lname">HOW CAN WE HELP YOU? *</label><br>
+        <input type="text"><br>
+        <button type="button" class="btn btn-primary">RESET</button>
+        <button type="button" class="btn btn-primary">SUBMIT</button>
+      </form>   -->
+
+      <div class="container">
+        <form action="action_page.php">
+          <div class="form1">
+            <div class="form2">
+              <label for="name">NAME: *</label>
+            </div>
+            <div class="form3">
+              <input type="text">
+            </div>
+          </div>
+          <div class="form1">
+            <div class="form2">
+              <label for="email">EMAIL ADDRESS: *</label>
+            </div>
+            <div class="form3">
+              <input type="text">
+            </div>
+          </div>
+          <div class="form1">
+            <div class="form2">
+              <label for="note">HOW CAN WE HELP YOU? *</label>
+            </div>
+            <div class="form3">
+              <textarea id="note" style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="form1">
+            <button type="button1" class="but1">RESET</button>
+            <button type="button2" class="but2">SUBMIT</button>
+            
+          </div>
+        </form>
+      </div>
+      
+      
+
+      <div class = "headingc2">
+            
+        <p class="btextc4"> 
+            <u><b>Note:</b></u> If you are having difficulties with our contact us form above, send us an email to info@bemoacademicconsulting.com (copy & paste the email address)
+    </p> 
+</div>
+{%endblock content%}

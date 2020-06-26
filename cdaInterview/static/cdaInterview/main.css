@@ -1,0 +1,240 @@
+.main{
+    color: black;
+    margin-left:50%;
+    font-weight: bold;
+}
+
+.logo{
+    width:200px;
+}
+.image{
+    margin-top: 3rem;
+    width:1500px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin:0e;
+}
+
+  .centered {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 400%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+  }
+
+.heading{
+    margin-top: 5rem;
+}
+.btext{
+    color: rgb(0,0,128);
+    margin-left:10%;
+    font-weight: bold;
+}
+
+.bltext{
+    color: black;
+    margin-left:10%;
+    font-weight: bold;
+}
+
+.bltext2{
+    color: black;
+    margin-left:10%;
+}
+
+.list{
+    list-style-type:none;
+    padding-left: 0;
+}
+.bltext3{
+    color:red;
+    margin-left:9.5%;
+}
+
+.bltext4{
+    color: black;
+    margin-left:10%;
+    font-weight: bold;
+}
+
+.bltext5{
+    color: black;
+    margin-left:10%;
+}
+
+.bltext6{
+    color: black;
+    margin-left:10%;
+}
+
+.bltext7{
+    color: black;
+    margin-left:10%;
+}
+
+.bltext8{
+    color: black;
+    margin-left:10%;
+}
+
+.bltext9{
+    color: black;
+    margin-left:10%;
+    font-weight: bold;
+}
+
+.bltext10{
+    color: black;
+    margin-left:10%;
+}
+
+.bltext11{
+    color: black;
+    margin-left:10%;
+    font-weight: bold;
+}
+
+.bltext12{
+    color: black;
+    margin-left:10%;
+}
+
+.bltext13{
+    color: black;
+    margin-left:10%;
+    font-weight: bold;
+}
+
+.bltext14{
+    color: black;
+    margin-left:10%;
+}
+
+.bltext15{
+    color: black;
+    margin-left:10%;
+    font-weight: bold;
+}
+
+.bltext16{
+    color: black;
+    margin-left:10%;
+}
+
+.bltext17{
+    color: black;
+    margin-left:10%;
+    font-weight: bold;
+}
+
+.bltext18{
+    color: black;
+    margin-left:10%;
+}
+
+footer{
+    background-color;: #000066
+}
+
+.imagec{
+    width:1500px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin:0e;
+}
+
+.headingc{
+    margin-top: 5rem;
+}
+.btextc{
+    margin-left:5%;
+    font-weight: bold;
+}
+
+.btextc2{
+    margin-left:5%;
+}
+
+.btextc3{
+    margin-left:5%;
+}
+
+.headingc2{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.btextc4{
+    margin-left:5%;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  button[type=button1] {
+    background-color:grey;
+    color:#000066;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    float: right;
+  }
+
+ button[type=button2] {
+    background-color:grey;
+    color:#000066;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color:white;
+    padding: 20px;
+  }
+  
+
+  .form2 {
+    float: center;
+    width: 80%;
+    margin-top: 4px;
+  }
+  
+  .form3 {
+    float: center;
+    width: 100%;
+    margin-top: 4px;
+  }
+  
+  .form1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .form2, .form3, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  
